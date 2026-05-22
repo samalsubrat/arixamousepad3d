@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/models/:path*",
-        destination: "https://images.arion.in/mousepad-3d-gtlf/:path*",
+        destination:
+          "https://arion.blr1.cdn.digitaloceanspaces.com/mousepad-3d-gtlf/:path*",
       },
     ];
   },
